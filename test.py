@@ -37,20 +37,3 @@ for li in list:
     urllib.request.urlretrieve(url_join,'./m_formal/{}{}'.format(str(i),'.jpg'))
     i+=1
 
-# i_list = []
-# count = 1
-
-# print("Searching...")
-# for i in img:
-#    try:
-#       i_list.append(i.attrs["src"])
-#    except KeyError:
-#       i_list.append(i.attrs["data-src"])
-
-# print("Downloading...")
-# for i in i_list:
-#    urlretrieve(i,"images/"+keyword+str(count)+".jpg")
-#    count+=1
-
-# driver.close()
-# print("FINISH")
